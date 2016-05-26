@@ -990,6 +990,10 @@ Overlays
 	width: 100%;
 }
 
+.whiteBackground {
+	background-color: white;
+}
+
 .bg-dark,
 .bg-dark-30,
 .bg-dark-60,
@@ -1374,15 +1378,17 @@ Modules
 ------------------------------------------------------------------- */
 
 .wrapper {
-	background: gray;
 	overflow: hidden;
 	margin: 0 auto;
 	width: 100%;
 }
 
+.homepageWrapper {
+	background: black;
+}
 .module,
 .module-small {
-	padding: 140px 0;
+	/*padding: 140px 0 100px 0;*/
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -1396,8 +1402,13 @@ Modules
 	padding: 70px 0;
 }
 
+.modulePadding {
+	padding: 90px;
+}
+
 .navbar-custom + .module {
-	padding: 200px 0;
+	padding: 200px 0 150px 0;
+	background: gray;
 }
 
 .navbar-custom + .module-small {
@@ -2299,4 +2310,15 @@ Multi-columns-row
 	.multi-columns-row .col-lg-2:nth-child(6n + 7) { clear: left; }
 	.multi-columns-row .col-lg-1:nth-child(12n + 13) { clear: left; }
 
+}
+
+/* My Styles */
+
+.marginTop {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.paddingTop {
+	padding: 70px 0 70px 0;
 }
