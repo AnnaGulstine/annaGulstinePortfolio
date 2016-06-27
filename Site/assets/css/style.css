@@ -28,6 +28,45 @@ iframe {
 	border: 0;
 }
 
+.marginBottom {
+	margin-bottom: 40px;
+}
+
+.projectHeader {
+	line-height: 20px;
+	letter-spacing: 2px;
+
+}
+
+.projectImage {
+	border: 1px solid gray;
+}
+
+.italic {
+	font-style: italic;
+	letter-spacing: 0.5px;
+}
+
+.darkGrayBackground {
+	background-color: #E5E5E5;
+}
+
+#lightGrayBackground {
+	background-color: #fafafa;
+}
+
+.paddingTop {
+	padding-top: 40px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+#twitterFeed {
+	height: 450px;
+	overflow-y: scroll;
+}
 /* ------------------------------------------------------------------
 Selection
 ------------------------------------------------------------------ */
